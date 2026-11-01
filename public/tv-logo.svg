@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="tvGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#060913"/>
+    </linearGradient>
+    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded TV Body -->
+  <rect x="24" y="56" width="464" height="340" rx="48" fill="url(#tvGrad)" stroke="#38bdf8" stroke-width="8"/>
+  <!-- Screen Rim -->
+  <rect x="44" y="76" width="424" height="300" rx="36" fill="#060913" stroke="rgba(255,255,255,0.1)" stroke-width="4"/>
+  <!-- Stand Legs -->
+  <path d="M160 416 L120 456 M352 416 L392 456 M200 416 L312 416" stroke="#38bdf8" stroke-width="12" stroke-linecap="round"/>
+  <!-- Android Head Inside Screen -->
+  <g transform="translate(196, 170) scale(1.2)">
+    <!-- Antennas -->
+    <line x1="26" y1="2" x2="12" y2="-20" stroke="url(#neonGlow)" stroke-width="6" stroke-linecap="round"/>
+    <line x1="74" y1="2" x2="88" y2="-20" stroke="url(#neonGlow)" stroke-width="6" stroke-linecap="round"/>
+    <!-- Head Dome -->
+    <path d="M 0 54 A 50 50 0 0 1 100 54 Z" fill="url(#neonGlow)"/>
+    <!-- Eyes -->
+    <circle cx="28" cy="32" r="6" fill="#060913"/>
+    <circle cx="72" cy="32" r="6" fill="#060913"/>
+  </g>
+  <!-- 17 Badge -->
+  <text x="256" y="320" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="44" fill="#ffffff" text-anchor="middle" letter-spacing="2">17 TV OS</text>
+</svg>

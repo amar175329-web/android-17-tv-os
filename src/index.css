@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --tv-bg-base: #060913;
+    --tv-bg-surface: #0e1526;
+    --tv-accent: #3b82f6;
+  }
+
+  body {
+    background-color: var(--tv-bg-base);
+    color: #f8fafc;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Google Sans", sans-serif;
+  }
+}
+
+/* TV Focus Outline Animation */
+.tv-focus-glow {
+  box-shadow: 0 0 25px rgba(59, 130, 246, 0.6), 0 0 50px rgba(59, 130, 246, 0.25);
+}
+
+/* Hide scrollbars for clean TV aesthetic while preserving smooth scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

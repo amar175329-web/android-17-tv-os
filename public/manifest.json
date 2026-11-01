@@ -1,0 +1,17 @@
+{
+  "short_name": "Android 17 TV",
+  "name": "Android 17 TV OS",
+  "icons": [
+    {
+      "src": "/tv-logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#060913",
+  "theme_color": "#060913",
+  "display": "standalone",
+  "orientation": "landscape"
+}
